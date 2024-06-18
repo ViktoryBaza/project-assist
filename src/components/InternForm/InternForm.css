@@ -1,0 +1,87 @@
+.modal {
+    background-color: #4c4c50;
+    height: 500px;
+    width: 500px;
+    margin: 150px auto;
+    border-radius: 10px;
+}
+.bthContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.btnTableClose {
+    height: 50px;
+    padding: 8px 16px;
+    color: #e6a42b;
+    border: none;
+    background-color: #413f48;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+    position: relative;
+    right: 0;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 0;
+    border: 1px solid #e6a42b;
+}
+.btnTableClose:hover {
+    background-color: #66646b;
+}
+
+.btnTableAdd {
+    height: 50px;
+    padding: 8px 16px;
+    color: #fafafa;
+    border: none;
+    background-color: #e6a42b;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+    position: relative;
+    right: 0;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 0;
+    border: 1px solid #e6a42b;
+}
+.btnTableAdd:hover {
+    background-color: #c28e2f;
+    color: #fafafa;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: #47474d;
+    padding-left: 10px;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+.form_content {
+    height: 500px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+input {
+    margin: 10px 10px;
+    margin-right: 30px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    background: none;
+    box-shadow: none;
+    height: 40px;
+    background-color: #424145;
+    color: #fafafa;
+    flex-shrink: 0;
+}
+.form {
+    border: none;
+}
